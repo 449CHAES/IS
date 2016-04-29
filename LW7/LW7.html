@@ -1,0 +1,77 @@
+<html>
+ <head>
+ <title>Формы в html</title>
+ </head>
+<body>
+<form action=" http://192.168.32.129/study/lab7/index.php" method="post" name="form">
+
+<table   border="0" cellpadding="5" cellspacing="5">
+<tr>
+<td>ФИО:</td>
+<td><input type="text" name="fio" size="50" maxlength="25" value="Селедушкин А.В."> </td>
+</tr>
+
+<tr>
+<td>E-mail:</td>
+<td><input type="text" name="mail" size="50" maxlength="25" value="seledka@mail.ru"> </td>
+</tr>
+
+<tr>
+<td>Пароль:</td>
+<td><input type="text" name="pass" size="50" maxlength="25" value="ryba_moey_mechty"> </td>
+</tr>
+
+<tr>
+<td>Пол:</td>
+<td><input type="radio" name="sex" value="male" checked>мужской
+ <input type="radio" name="sex" value="female">женский  </td>
+</tr>
+
+<tr>
+<td> № бригады: </td>
+<td> <select name="team" size="1">
+<option selected value="team1">Бригада №5
+<option value="team2">Бригада №2
+<option value="team3">Бригада №3
+<option value="team4">Бригада №4
+<option value="team5">Бригада №5
+<option value="team6">Бригада №6
+<option value="team7">Бригада №7
+<option value="team8">Бригада №8
+<option value="team9">Бригада №9
+<option value="team10">Бригада №10
+</select></td>
+</tr>
+
+
+ <tr>
+<td Valign="top">Наиболее <br>интересные<br> работы</td>
+<td>  <input type="checkbox" name="lab1..lab7 " value="lab1" checked>ЛР №1. Теги<br>
+     <input type="checkbox" name="lab1..lab7 " value="lab2" >ЛР №2. Списки<br>
+     <input type="checkbox" name="lab1..lab7 " value="lab3" >ЛР №3. Ссылки<br>
+     <input type="checkbox" name="lab1..lab7 " value="lab4" >ЛР №4. Графика<br>
+	 <input type="checkbox" name="lab1..lab7 " value="lab5" >ЛР №5. Таблицы<br>
+	 <input type="checkbox" name="lab1..lab7 " value="lab6" >ЛР №6. Фреймы<br>
+     <input type="checkbox" name="lab1..lab7 " value="lab7" >ЛР №7. Формы  
+</td>
+</tr>
+
+
+
+<tr>
+<td valign="top"> Предложения</td>
+<td><textarea name="offer" cols="30" rows="5" wrap="physical" >Текст для предложения</textarea> </td>
+</tr>
+	
+<tr>
+<td></td>
+<td> <input type="submit"  name="yes" value="Отправить" >  <input type="reset" name="no" value="Очистить"> </td>
+</tr>		
+	
+ 
+ 
+</table>
+</form>
+
+</body>
+</html> 
